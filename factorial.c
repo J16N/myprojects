@@ -1,19 +1,33 @@
 #include <stdio.h>
 
+int factorial(int num)
+{
+	int ans = num;
+	while (num > 1) {
+		num --;
+		ans *= num;
+	}
+	return ans;
+}
+
 int main(int argc, char *argv[])
 {
-	int inp, ans;
-	printf("FACTORIAL OF: ");
-	scanf("%d", &inp);
-	if (inp>=1){
-		ans=inp;
-		while (inp>1){
-			inp--;
-			ans*=inp;
-		}
-		printf("So the factorial is %ld.\n", ans);
-	}else{
-		printf("Choose the number greater than one.");
-	}
+	int ans;
+	printf("\n---------------"
+		"--------------------\n");
+	printf("THIS PROGRAM WILL "
+		"DO THE FACTORIAL");
+	printf("\n---------------"
+		"--------------------\n");
+	printf("\nFactorial Of: ");
+	scanf("%d", &ans);
+	if (ans >= 1)
+		printf("\nAns:- %d\n\n", 
+			factorial(ans));
+	else
+		printf("\nChoose the number"
+			" greater than one or "
+			"equal to one.\n\n");
+
 	return 0;
 }
