@@ -38,5 +38,6 @@ int main(int argc, char *argv[])
 		}
 	}
 	printf("\n");
+	free(arr);
 	return 0;
 }
