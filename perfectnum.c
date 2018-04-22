@@ -23,6 +23,8 @@ int imperfect(int num)
 	}
 	if (sum == num)
 		return 0;
+	else
+		return 1;
 }
 			
 int main(int argc, char *argv[])
@@ -30,7 +32,7 @@ int main(int argc, char *argv[])
 	int beg, end, i = 0;
 	printf("\nEnter the starting number: ");
 	scanf("%d", &beg);
-	printf("\nEnter the ending number: ");
+	printf("Enter the ending number: ");
 	scanf("%d", &end);
 	
 	// these if-else is for some really annoying users who just give some random inputs to 
@@ -47,6 +49,7 @@ int main(int argc, char *argv[])
 					i++;
 			}
 		}
+		printf("\n");
 	}
 	return 0;
 }
