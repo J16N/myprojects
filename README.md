@@ -9,4 +9,5 @@
 
  Factorial Of: 6
 
- Ans:- 720 ```
+ Ans:- 720
+ ```
