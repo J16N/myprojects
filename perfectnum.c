@@ -14,17 +14,15 @@ int imperfect(int num)
 {
 	int sum = 0;
 	int divisor = (num - 1);
-	while (divisor > 0){
-		if (num % divisor == 0){
+	while (divisor > 0) {
+		if (num % divisor == 0) {
 			sum += divisor;
 			divisor--;
-		}else{
+		} else
 			divisor--;
-		}
 	}
-	if (sum == num){
+	if (sum == num)
 		return 0;
-	}
 }
 			
 int main(int argc, char *argv[])
