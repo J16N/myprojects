@@ -16,12 +16,13 @@ int imprime(int num)
 		if (!(num % divisor)){
 			sum += divisor;
 			divisor--;
-		}else{
+		} else
 			divisor--;
-		}
 	}
 	if (sum == 1)
 		return 0;
+	else
+		return 1;
 }
 
 int main(int argc, char *argv[])
@@ -29,7 +30,7 @@ int main(int argc, char *argv[])
 	int beg, end, i = 0;
 	printf("\nEnter the starting number: ");
 	scanf("%d", &beg);
-	printf("\nEnter the ending number: ");
+	printf("Enter the ending number: ");
 	scanf("%d", &end);
 	
 	// range should be in positive infinity
@@ -43,8 +44,8 @@ int main(int argc, char *argv[])
 				i++;
 			}
 		}
+		printf("\n");
 	}
 	
 	return 0;
 }
-	
