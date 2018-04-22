@@ -1,5 +1,6 @@
-# a typical program that helps to calculate
-# pending tax in my father's office.
+# A typical program that helps to calculate pending tax of any person in my father's office.
+# I am not in explaining this shit because I eventually designed it for my father.
+# Later it was found that they already got their problem solved from the other source :(
 
 from datetime import datetime
 
