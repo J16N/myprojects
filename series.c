@@ -2,16 +2,15 @@
 
 int main(int argc, char *argv[])
 {
-	int inp, ans;
+	int inp, ans, i = 0;
 	printf("No. of terms: ");
 	scanf("%d", &inp);
-	if (inp>=0){
-	    for (int i=1; i<(inp+1); i++){
-		    ans=ans+(i*i);
-	    }
+	if (inp >= 0){
+	    for (i = 1; i < (inp + 1); i++)
+		    ans = ans + (i * i);
 	    printf("So the answer of the series is %d.\n", ans);
-	}else{
+	} else
 		printf("No. of terms can never be negetive.\n");
-	}
+	
 	return 0;
 }
