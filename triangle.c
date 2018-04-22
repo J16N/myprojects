@@ -1,3 +1,9 @@
+/* This is the program that prints a triangle with one single for loop :)
+ * I essentially wanted to make a pascal triangle but ended by making this.
+ * Although this program prints pascal triangle but upto a input '9' :/
+ * Need to think about things!
+ */
+
 #include <stdio.h>
 #include <math.h>
 
@@ -11,7 +17,7 @@ int main(int argc, char *argv[])
 	for (int i=0; i<inp; i++, len++){
 		ans=pow(10,i)+ans;
 		ans1=pow(ans,2);
-		printf("%*lld\n", len, ans1);
+		printf("%*lld\n", len, ans1); // alignment matters :P
 	}
 	return 0;
 }
