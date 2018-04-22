@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 		printf("Number of terms can never be negetive.");
 	else {
 		ans = ((n * (n + 1) * ((2 * n) + 1)) / 6);
-		printf("So the addition is %d.", ans);
+		printf("So the addition is %d.\n", ans);
 	}
 	
 	return 0;
