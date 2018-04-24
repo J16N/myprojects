@@ -1,6 +1,6 @@
 /* This is the program that prints a triangle with one single for loop :)
  * I essentially wanted to make a pascal triangle but ended by making this.
- * Although this program prints pascal triangle but upto a input '9' :/
+
  * Need to think about things!
  */
 
