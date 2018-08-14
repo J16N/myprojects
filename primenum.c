@@ -2,7 +2,7 @@
  * I made this program just to see whether if the prime numbers are occuring
  * in any pattern or not :) :/
  * You might be now thinking so what's next? "No I didn't find any pattern yet
- * so missed to get yet another Noble Prize :P"
+ * so missed to the Noble Prize :P"
  */
 
 #include<stdio.h>
