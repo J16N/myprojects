@@ -208,3 +208,24 @@ Triangle Row: 10
  12345678987654320
 1234567900987654400
 ```
+13. [linked-list.c](https://github.com/J16N/myprojects/blob/master/linked-list.c)
+```
+ *************************************************************
+ *************************************************************
+ ** <1>  To ADD a new node to the list                      **
+ ** <2>  To ADD a new node at the BEGINNING of the list     **
+ ** <3>  To ADD a new node AFTER a given NODE in the list   **
+ ** <4>  To ADD a new node AFTER a given VALUE in the list  **
+ ** <5>  To DELETE a node from the BEGINNING of the list    **
+ ** <6>  To DELETE a given NODE in the list                 **
+ ** <7>  To DELETE a given VALUE in the list                **
+ ** <8>  To DELETE the LAST node in the list                **
+ ** <9>  To REVERSE the list                                **
+ ** <10> To SEARCH for a VALUE in the list                  **
+ ** <11> To DISPLAY the list                                **
+ ** <0>  To END the operation                               **
+ *************************************************************
+ *************************************************************
+
+ Enter Choice:
+```
