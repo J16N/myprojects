@@ -268,3 +268,11 @@ Enter size: 24
     *                                         * 
     * * * * * * * * * * * * * * * * * * * * * *
 ```
+15. [numwords.c](https://github.com/J16N/myprojects/blob/master/numwords.c)
+```
+Enter a number: 1234567890
+Twelve Thousand Three Hundred Forty Five Lakh Sixty Seven Thousand Eight Hundred Ninety
+
+Enter a number: 231
+Two Hundred Thirty One
+```
